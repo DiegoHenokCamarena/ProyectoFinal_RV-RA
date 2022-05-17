@@ -20,6 +20,7 @@ using Gvr.Internal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+
 /// <summary>This script provides an implemention of Unity's `BaseInputModule` class.</summary>
 /// <remarks><para>
 /// Exists so that Canvas-based (`uGUI`) UI elements and 3D scene objects can be interacted with in

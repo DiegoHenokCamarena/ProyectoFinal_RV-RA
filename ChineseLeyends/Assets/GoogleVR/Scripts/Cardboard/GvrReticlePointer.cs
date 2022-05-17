@@ -24,6 +24,9 @@ using UnityEngine.EventSystems;
 [HelpURL("https://developers.google.com/vr/unity/reference/class/GvrReticlePointer")]
 public class GvrReticlePointer : GvrBasePointer
 {
+
+
+
     /// <summary>
     /// The constants below are expsed for testing. Minimum inner angle of the reticle (in degrees).
     /// </summary>
@@ -174,6 +177,9 @@ public class GvrReticlePointer : GvrBasePointer
     /// <inheritdoc/>
     protected override void Start()
     {
+
+        
+
         base.Start();
 
         Renderer rendererComponent = GetComponent<Renderer>();
@@ -197,6 +203,9 @@ public class GvrReticlePointer : GvrBasePointer
     private void Update()
     {
         UpdateDiameters();
+
+        
+
     }
 
     /// @endcond
